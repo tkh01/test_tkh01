@@ -1,0 +1,61 @@
+@import url(http://fonts.googleapis.com/earlyaccess/jejugothic.css);
+
+body{background-image: url(../../images/bg2.gif);}
+
+.container{margin-top: 1em;}
+
+.container .main{text-align: center;}
+
+.blo{font-size: 1.0em;}
+
+.container .panel-group .panel-heading{background-color:#222222; color:#f3f1f1;}
+
+#map{font-family: 'Jeju Gothic', serif;}
+
+.row #brand {
+  overflow: hidden;
+  position: relative;
+  margin:0 auto;
+  width: 194px;
+  height: 194px;
+  background: url(../images/header-brand-logo.png) no-repeat;
+  text-indent: -10000px;
+  -webkit-border-radius: 100px;
+  -khtml-border-radius: 100px;
+  -moz-border-radius: 100px;
+  border-radius: 100px;
+  -webkit-transition: all 0.4s ease;
+  -moz-transition: all 0.4s ease;
+  -o-transition: all 0.4s ease;
+  -ms-transition: all 0.4s ease;
+  transition: all 0.4s ease;
+}
+
+.row #brand:before {
+  content: '';
+  position: absolute;
+  left: 50%;
+  top: 50px;
+  width: 17px;
+  height: 17px;
+  margin-left: -8.5px;
+  background: url(../images/header-brand-star.png) no-repeat;
+  -webkit-transition: all 0.6s ease-out;
+  -moz-transition: all 0.6s ease-out;
+  -o-transition: all 0.6s ease-out;
+  -ms-transition: all 0.6s ease-out;
+  transition: all 0.6s ease-out;
+}
+
+.row #brand:hover:before {
+  top: 35px;
+  -webkit-transform: rotate(360deg);
+  -moz-transform: rotate(360deg);
+  -ms-transform: rotate(360deg);
+  transform: rotate(360deg);
+}
+
+
+
+
+footer{text-align: center; font-weight:bold;}
